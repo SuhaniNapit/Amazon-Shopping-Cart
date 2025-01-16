@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1>Payment</h1>
+            <a href="checkout.html" class="back-to-checkout">← Back to Checkout</a>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="payment-methods">
+            <h2>Select Payment Method</h2>
+            <form id="payment-form">
+                <label for="payment-method">Payment Method:</label>
+                <select id="payment-method" name="payment-method">
+                    <option value="credit-card">Credit Card</option>
+                    <option value="debit-card">Debit Card</option>
+                    <option value="paypal">PayPal</option>
+                </select>
+
+                <button type="submit" id="complete-payment" class="complete-payment-btn">Complete Payment</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 1996-2024, Amazon.com, Inc. or its affiliates</p>
+    </footer>
+
+    <script src="payment.js"></script>
+</body>
+</html>
+
+
